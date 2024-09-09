@@ -54,8 +54,8 @@ const Hero = () => {
          
         <div>
              <Image
-          src="/assets/fox.jfif"
-           alt="portfolio-pic"
+          src="/assets/1.png"
+           alt="portfolio-piccccc"
             width={700} 
             height={500}
              className="h-[100%]
