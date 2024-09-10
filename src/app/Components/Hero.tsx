@@ -24,7 +24,7 @@ const Hero = () => {
     });
   }, []);
   return (
-    <div className='container'>
+    <div className=''>
 
       {/* Parent Div of cols-2 */}
         <div className='md:grid grid-cols-2'>
