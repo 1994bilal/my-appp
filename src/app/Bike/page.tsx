@@ -12,7 +12,7 @@ const Bike = () => {
 
     <div>
              <Image
-          src="/assets/fbike.jpg"
+          src="/assets/mb.jfif"
            alt="portfolio-pic"
             width={500} 
             height={500}
