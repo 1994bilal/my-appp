@@ -7,7 +7,7 @@ const Truck = () => {
     
   
     
-    <div className='container'>
+    <div className=''>
 
 
     <div>
