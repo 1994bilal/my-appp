@@ -78,7 +78,7 @@ const Details = () => {
 
         <div >
              <Image
-          src="/assets/fox3.jfif"
+          src="/assets/fox3.jpg"
            alt="portfolio-pic"
             width={1000} 
             height={1000}
