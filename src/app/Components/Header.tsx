@@ -83,7 +83,7 @@ const Header = () => {
           >
             <span className="sr-only">Open main menu</span>
             
-            <Bars3Icon aria-hidden="true" className="h-8 w-6 text-black font-extrabold mx-60"/>
+            <Bars3Icon aria-hidden="true" className="h-8 w-6 text-black font-extrabold mx-20"/>
             
             
           </button>
