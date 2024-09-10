@@ -54,7 +54,7 @@ const Hero = () => {
          
         <div>
              <Image
-          src="/assets/12.png"
+          src="/assets/fox2.png"
            alt="portfolio-piccccc"
             width={700} 
             height={500}
