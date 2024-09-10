@@ -30,7 +30,7 @@ const Truck = () => {
 </div>
 
 <div className='text-center my-20 text-black font-bold'>
-  <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">History Check at Affordable Prices</h2>
+  <h2 className="border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">History Check at Affordable Prices</h2>
 </div>
 
 
