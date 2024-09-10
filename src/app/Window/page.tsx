@@ -41,7 +41,7 @@ const Window = () => {
    
   <div >
        <Image
-    src="/assets/fwindiw.jpg"
+    src="/assets/fwindiw.jpeg"
      alt="portfolio-pic"
       width={700} 
       height={500}
