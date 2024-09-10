@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import GetReport from './GetReport/page';
-import TabForm from './TabForm';
+
 
 
 
@@ -68,7 +68,7 @@ const Hero = () => {
 {/* ********************************* */}
 
 <GetReport/>
-<TabForm/>
+
         
 
 
