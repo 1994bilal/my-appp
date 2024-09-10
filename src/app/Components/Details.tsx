@@ -21,7 +21,7 @@ const Details = () => {
                       
                       <div>
                         <Image
-                          src='/assets/fox2.jfif'
+                          src='/assets/fox2.jpg'
                           alt='Vehicle History Report'
                           width={5000}
                           height={5000}
