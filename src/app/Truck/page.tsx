@@ -22,8 +22,8 @@ const Truck = () => {
         </div>
 
 <div className='text-center my-10 text-black font-bold'>
-  <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">Truck Report</h1>
-  <h4 className="scroll-m-20 text-xl font-semibold tracking-tight my-5">
+  <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">Truck Report</h1>
+  <h4 className="text-xl font-semibold tracking-tight my-5">
   Fire Wheel delivers exceptional heavy-duty vehicle inspection services tailored for companies in the construction, logistics, and various transportation-dependent industries. Our
    comprehensive assessments ensure operational security, reliability, and efficiency, serving as a valuable asset for your business.
   </h4>
