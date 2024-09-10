@@ -9,7 +9,7 @@ const Car = () => {
 
     <div>
              <Image
-          src="/assets/fox2.jfif"
+          src="/assets/fox.jpg"
            alt="portfolio-pic"
             width={500} 
             height={500}

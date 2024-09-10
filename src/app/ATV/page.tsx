@@ -12,7 +12,7 @@ const ATV = () => {
 
     <div>
              <Image
-          src="/assets/fATV.jfif"
+          src="/assets/fATV.jpg"
            alt="portfolio-pic"
             width={1000} 
             height={1000}
