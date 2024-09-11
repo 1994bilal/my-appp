@@ -12,7 +12,8 @@ const GetReport = () => {
   return (
     <div className='my-10'>
     
-<div className='grid grid-cols-2'>
+<div className='flex flex-col
+md:grid grid-cols-2'>
 <div className=''>
     <div className=''><h3 className='font-bold'>Success! We found detailed information for VIN# JH4DA9370NS035336</h3>
 <div className='grid grid-cols-2'>
@@ -23,13 +24,13 @@ const GetReport = () => {
             width={100} 
             height={100}
              className="h-[50%]
-             bg-white my-10  "
+             bg-white my-10 mx-10 "
              />
     </div>
 <h1 className='text-2xl font-extrabold my-16 text-start'>1992 Acura Integra</h1></div>
 </div>
-<div className=''>
-    <ul className='flex flex-col justify-around space-y-4'>
+<div className='my-10'>
+    <ul className='flex flex-col justify-around space-y-4 mx-10'>
         <li>Trim
             <input className='mx-4' type="text" />
         </li>
