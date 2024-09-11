@@ -39,7 +39,7 @@ const About = () => {
 
              <div>
              <Image
-          src="/assets/bi.jfif"
+          src="/assets/bi.jpg"
            alt="portfolio-pic"
             width={1000} 
             height={1000}
@@ -52,7 +52,7 @@ const About = () => {
              <div className='flex flex-col'>
               <div>
              <Image
-          src="/assets/bo.jfif"
+          src="/assets/bo.jpg"
            alt="portfolio-pic"
             width={1000} 
             height={1000}
@@ -62,7 +62,7 @@ const About = () => {
 
              <div>
              <Image
-          src="/assets/tr.jfif"
+          src="/assets/tr.jpg"
            alt="portfolio-pic"
             width={1000} 
             height={1000}
@@ -189,7 +189,7 @@ const About = () => {
 
              <div>
              <Image
-          src="/assets/bo.jfif"
+          src="/assets/bo.jpg"
            alt="portfolio-pic"
             width={1000} 
             height={1000}
