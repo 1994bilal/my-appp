@@ -24,9 +24,28 @@ function TabForm() {
   
   return (
     <div className="bg-white">
-    <div className="grid grid-cols-2 md:justify-evenly">
-    <div data-aos="fade-right" className="mx-5 md:mx-40 mt-10">
-    <Tabs defaultValue="account" className="w-[220px] md:w-[500px] ">
+
+
+      
+    <div className="flex flex-col
+    md:grid grid-cols-2 justify-evenly">
+
+
+<div data-aos="fade-right" data-aos-duration="3000">
+             <Image
+          src="/assets/fo2.jpg"
+           alt="portfolio-pic"
+            width={300} 
+            height={700}
+             className="md:hidden rounded-xl mr-10 my-0 my-18 md:h-80 h-40 w-40"
+              // my-18 transition ease-in-out delay-150 hover:-translate-y-5 hover:scale-110"
+             />
+        
+                
+            </div>
+
+    <div data-aos="fade-right" className="mt-10 md:mr-20">
+    <Tabs defaultValue="account" className="w-full md:w-[500px] ">
       <TabsList className="grid w-full grid-cols-2 text-white gap-3">
         <TabsTrigger className="bg-indigo-700 rounded-[20px] font-extrabold tracking-tighter" value="account">By VIN</TabsTrigger>
         <TabsTrigger className="bg-indigo-700 rounded-[20px] font-extrabold tracking-tighter" value="password">By US Licence Plate</TabsTrigger>
@@ -96,18 +115,7 @@ function TabForm() {
     </Tabs>
     </div>
 
-    <div data-aos="fade-right" data-aos-duration="3000">
-             <Image
-          src="/assets/fo2.jpg"
-           alt="portfolio-pic"
-            width={300} 
-            height={700}
-             className="rounded-xl mr-60 my-20 my-18 md:h-80 h-40 w-40"
-              // my-18 transition ease-in-out delay-150 hover:-translate-y-5 hover:scale-110"
-             />
-        
-                
-            </div>
+    
             </div>
 
 
