@@ -10,7 +10,7 @@ const About = () => {
     
     <div>
              <Image
-          src="/assets/fox5.jfif"
+          src="/assets/fox5.jpg"
            alt="portfolio-pic"
             width={500} 
             height={500}
