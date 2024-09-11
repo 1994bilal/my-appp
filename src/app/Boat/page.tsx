@@ -7,7 +7,7 @@ const Boat = () => {
     
   
     
-    <div className='container'>
+    <div className=''>
 
 
     <div>
