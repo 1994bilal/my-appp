@@ -7,12 +7,12 @@ const Bike = () => {
     
   
     
-    <div className='container'>
+    <div className=''>
 
 
     <div>
              <Image
-          src="/assets/ggg.jpg"
+          src="/assets/fbike.jpg"
            alt="portfolio-pic"
             width={500} 
             height={500}
