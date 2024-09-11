@@ -12,7 +12,7 @@ const Truck = () => {
 
     <div>
              <Image
-          src="/assets/truckk.jpg"
+          src="/assets/ftruck.jpg"
            alt="portfolio-pic"
             width={1000} 
             height={1000}
