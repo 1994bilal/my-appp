@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Car = () => {
   return (
     
-    <div className='container'>
+    <div className=''>
 
 
     <div>
