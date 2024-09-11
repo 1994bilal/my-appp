@@ -24,7 +24,7 @@ function TabForm() {
   
   return (
     <div className="bg-white">
-    <div className="grid grid-cols-2 justify-evenly">
+    <div className="grid grid-cols-2 md:justify-evenly">
     <div data-aos="fade-right" className="mx-5 md:mx-40 mt-10">
     <Tabs defaultValue="account" className="w-[220px] md:w-[500px] ">
       <TabsList className="grid w-full grid-cols-2 text-white gap-3">
@@ -102,7 +102,7 @@ function TabForm() {
            alt="portfolio-pic"
             width={300} 
             height={700}
-             className="rounded-xl mr-20 my-20 my-18 h-80"
+             className="rounded-xl mr-20 my-20 my-18 md:h-80 h-40 w-40"
               // my-18 transition ease-in-out delay-150 hover:-translate-y-5 hover:scale-110"
              />
         
