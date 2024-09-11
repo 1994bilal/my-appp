@@ -102,7 +102,7 @@ function TabForm() {
            alt="portfolio-pic"
             width={300} 
             height={700}
-             className="rounded-xl mr-20 my-20 my-18 md:h-80 h-40 w-40"
+             className="rounded-xl mr-40 my-20 my-18 md:h-80 h-40 w-40"
               // my-18 transition ease-in-out delay-150 hover:-translate-y-5 hover:scale-110"
              />
         
