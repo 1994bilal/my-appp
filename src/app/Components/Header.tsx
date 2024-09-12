@@ -45,7 +45,15 @@ import Link from 'next/link'
 // ]
 
 const Header = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(true)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const toggleMenu = () =>{
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const handleLinkClick = () =>{
+    setMobileMenuOpen(false);
+  };
 
   return (
     <div className='wrapper'>
@@ -83,8 +91,8 @@ const Header = () => {
           >
             <span className="sr-only">Open main menu</span>
             
-            <Bars3Icon aria-hidden="true" className="h-8 w-6 text-black font-extrabold mx-0"/>
-            
+            <Bars3Icon onClick={toggleMenu} aria-hidden="true" className="h-8 w-6 text-black font-extrabold mx-0"/>
+            {mobileMenuOpen ? 'close Menu' : 'Open Menu'}
             
           </button>
           
@@ -168,42 +176,42 @@ const Header = () => {
                   
               
 
-                <Link href={"/"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+                <Link onClick={toggleMenu} href={"/"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
              Home
           </Link>
-          <Link href={"/About"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href={"/About"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
              About Us
           </Link>
-          <Link href={"/Window"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href={"/Window"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
              Window Sticker
           </Link>
-          <Link href={"Report"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href={"Report"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
             Sample Report
           </Link>
 
-          <Link href={"/Car"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href={"/Car"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
              Car Report
           </Link>
-          <Link href={"/Bike"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href={"/Bike"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
             MotorBike Report
           </Link>
 
-          <Link href={"/Truck"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href={"/Truck"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
              Truck Report
           </Link>
-          <Link href={"ATV"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href={"ATV"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
             ATV Report
           </Link>
 
-          <Link href={"/Boat"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href={"/Boat"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
              Boat Report
           </Link>
           
           
-          <Link href="/Cont" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
+          <Link onClick={toggleMenu} href="/Cont" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black opacity-35 hover:opacity-100">
             Contact us
           </Link>
-                <Button className='bg-gray-400 rounded-[20px] px-6 py-2 mx-0 my-auto text-black opacity-35 hover:opacity-100'>Login</Button>
+                <Button onClick={toggleMenu} className='bg-gray-400 rounded-[20px] px-6 py-2 mx-0 my-auto text-black opacity-35 hover:opacity-100'>Login</Button>
               </div>
               
             </div>
