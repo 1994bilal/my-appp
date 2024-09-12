@@ -248,7 +248,7 @@ Click to View Sample</Button>
 {/* *************************************************************** */}
 
 <div className='flex flex-col
-md:grid grid-cols-2 bg-indigo-900 my-20 py-5'>
+md:grid grid-cols-2 bg-indigo-900 my-20 py-5 rounded-xl'>
   <div>
     <h1 className='text-center text-3xl font-extrabold text-yellow-200 pt-2 my-2 tracking-tighter'>We are proud to be one of the pioneers<br/>  in providing Classic <br/>
       Window Stickers</h1>
@@ -296,7 +296,7 @@ md:grid grid-cols-3 md:px-5 m-3 gap-5'>
        className="h-20 w-20 mx-40 my--20"/>
   </div>
     <h2 className='text-black font-bold text-3xl text-center mb-6'>Promotional Marketing</h2>
-  <p className='text-black font-light text-lg text-center tracking-tighter'>Window Stickers are an inexpensive way to market your car at
+  <p className='text-black font-light text-sm text-center tracking-tighter'>Window Stickers are an inexpensive way to market your car at
      all times of the day.
      Colorful Graphics express your vehicles key information</p></div>
 
@@ -311,7 +311,7 @@ md:grid grid-cols-3 md:px-5 m-3 gap-5'>
        className="h-20 w-20 mx-40 my--20"/>
   </div>
     <h2 className='text-black font-bold text-3xl text-center mb-6'>Drive Sales</h2>
-  <p className='text-black font-light text-lg text-center tracking-tighter'>Most people take decisions
+  <p className='text-black font-light text-sm text-center tracking-tighter'>Most people take decisions
      on graphics they consume visually. Having a attractive window space grabs the attention of potential customers walking by.
      Colorful Graphics express your vehicles key information</p></div>
 
@@ -326,7 +326,7 @@ md:grid grid-cols-3 md:px-5 m-3 gap-5'>
        className="h-20 w-20 mx-40 my--20"/>
   </div>
     <h2 className='text-black font-bold text-3xl text-center mb-6'>Stand Out Among the Competition</h2>
-  <p className='text-black font-light text-lg text-center tracking-tighter'>Since Images communicate
+  <p className='text-black font-light text-sm text-center tracking-tighter'>Since Images communicate
      the essential part of you vehicle, potential customers have the ability to compare your information to the competition.    Colorful Graphics express your vehicles key information</p></div>
 
      
@@ -340,7 +340,7 @@ md:grid grid-cols-3 md:px-5 m-3 gap-5'>
        className="h-20 w-20 mx-40 my--20"/>
   </div>
     <h2 className='text-black font-bold text-3xl text-center mb-6'>Save Money on Marketing</h2>
-  <p className='text-black font-light text-lg text-center tracking-tighter'>Marketing to your neighborhood demographic
+  <p className='text-black font-light text-sm text-center tracking-tighter'>Marketing to your neighborhood demographic
      is a essential aspect when selling you vehicle. Use a Window sticker optimizes your overall marketing strategies.
      Colorful Graphics express your vehicles key information</p></div>
 
@@ -355,7 +355,7 @@ md:grid grid-cols-3 md:px-5 m-3 gap-5'>
        className="h-20 w-20 mx-40 my--20"/>
   </div>
     <h2 className='text-black font-bold text-3xl text-center mb-6'>Affordable Marketing</h2>
-  <p className='text-black font-light text-lg text-center tracking-tighter'>Our Window sticker designs are affordable enough
+  <p className='text-black font-light text-sm text-center tracking-tighter'>Our Window sticker designs are affordable enough
      to fit well within your budget. Whether you need single Window sticker or multiple, we will ensure the best rates.
      Colorful Graphics express your vehicles key information</p></div>
 
@@ -370,7 +370,7 @@ md:grid grid-cols-3 md:px-5 m-3 gap-5'>
        className="h-20 w-20 mx-40 my--20"/>
   </div>
     <h2 className='text-black font-bold text-3xl text-center mb-6'>Credibility</h2>
-  <p className='text-black font-light text-lg text-center tracking-tighter'>Using graphical 
+  <p className='text-black font-light text-sm text-center tracking-tighter'>Using graphical 
     designs on your window improves business traffic, stands out against your competition and increases credibility.
      Colorful Graphics express your vehicles key information</p></div>      
 </div>
