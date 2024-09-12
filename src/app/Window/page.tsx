@@ -89,7 +89,7 @@ md:grid grid-cols-3 py-10 gap-1'>
       height={70}
        className="h-[30%]
        my-18"/>
-      <h2 className='text-blue-600 text-2xl font-bold'>Standard Factory Features</h2>
+      <h2 className='text-blue-600 text-2xl font-bold text-center'>Standard Factory Features</h2>
       <h3 className='text-lg'>Standard features usually include items like<br/>
        engine and transmission specifications,<br/>
        Standard installed equipment, interior & <br/>
@@ -105,7 +105,7 @@ md:grid grid-cols-3 py-10 gap-1'>
       height={70}
        className="h-[30%]
        my-18"/>
-      <h2 className='text-blue-600 text-2xl font-bold'>Standard Factory Features</h2>
+      <h2 className='text-blue-600 text-2xl font-bold text-center'>Standard Factory Features</h2>
       <h3 className='text-lg'>Standard features usually include items like<br/>
        engine and transmission specifications,<br/>
        Standard installed equipment, interior & <br/>
@@ -127,7 +127,7 @@ md:grid grid-cols-3 py-10 gap-1'>
       height={70}
        className="h-[30%]
        my-18"/>
-      <h2 className='text-blue-600 text-2xl font-bold'>Standard Factory Features</h2>
+      <h2 className='text-blue-600 text-2xl font-bold text-center'>Standard Factory Features</h2>
       <h3 className='text-lg'>Standard features usually include items like<br/>
        engine and transmission specifications,<br/>
        Standard installed equipment, interior & <br/>
@@ -143,7 +143,7 @@ md:grid grid-cols-3 py-10 gap-1'>
       height={70}
        className="h-[30%]
        my-18"/>
-      <h2 className='text-blue-600 text-2xl font-bold'>Standard Factory Features</h2>
+      <h2 className='text-blue-600 text-2xl font-bold text-center'>Standard Factory Features</h2>
       <h3 className='text-lg'>Standard features usually include items like<br/>
        engine and transmission specifications,<br/>
        Standard installed equipment, interior & <br/>
@@ -159,7 +159,7 @@ md:grid grid-cols-3 py-10 gap-1'>
       height={70}
        className="h-[30%]
        my-18"/>
-      <h2 className='text-blue-600 text-2xl font-bold'>Standard Factory Features</h2>
+      <h2 className='text-blue-600 text-2xl font-bold text-center'>Standard Factory Features</h2>
       <h3 className='text-lg'>Standard features usually include items like<br/>
        engine and transmission specifications,<br/>
        Standard installed equipment, interior & <br/>
@@ -296,7 +296,7 @@ md:grid grid-cols-3 md:px-5 m-3 gap-5'>
        className="h-20 w-20 mx-40 my--20"/>
   </div>
     <h2 className='text-black font-bold text-3xl text-center mb-6'>Promotional Marketing</h2>
-  <p className='text-black font-light text-lg text-center'>Window Stickers are an inexpensive way to market your car at
+  <p className='text-black font-light text-lg text-center tracking-tighter'>Window Stickers are an inexpensive way to market your car at
      all times of the day.
      Colorful Graphics express your vehicles key information</p></div>
 
