@@ -7,6 +7,7 @@ import TabFrm from '../Components/TabForm'
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import TabForm from '../Components/TabForm'
 
 const Window = () => {
   useEffect(() =>{
@@ -54,10 +55,10 @@ const Window = () => {
          </div>
 {/* ****************************************************************** */}
     
-    
-      <TabFrm/>
+<div className='my-10'>    
+      <TabForm/>
 
-
+      </div>
          {/* *********************************************************8  */}
 
 
