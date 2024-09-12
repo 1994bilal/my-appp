@@ -89,10 +89,10 @@ const Header = () => {
             onClick={() => setMobileMenuOpen(true)}
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">open mobile menu</span>
             
             <Bars3Icon onClick={toggleMenu} aria-hidden="true" className="h-8 w-6 text-black font-extrabold mx-0"/>
-            {mobileMenuOpen ? 'close Menu' : 'Open Menu'}
+            {mobileMenuOpen ? '' : ''}
             
           </button>
           

@@ -83,7 +83,7 @@ md:grid grid-cols-2'>
    
 </div>
 <div>
-<div className='bg-yellow-300 text-wrap text-center p-2 space-y-3 rounded-2xl m-5'>
+<div className='bg-yellow-300 text-wrap text-center p-2 px-3 space-y-3 rounded-2xl m-5'>
    <h3 className='font-bold text-lg '>1 Report</h3>
    <h2 className='font-extrabold text-2xl'>$ 29.99<span className='text-sm font-bold'>/Report</span></h2>
    <p className='font-bold text-sm'>You pay $ 29.99 <br />
