@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    .dark-mode{
+        background-color: green;
+        color:white;
+    }
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
