@@ -15,7 +15,7 @@ const GetReport = () => {
 <div className='flex flex-col
 md:grid grid-cols-2'>
 <div className=''>
-    <div className=''><h3 className='font-bold'>Success! We found detailed information for VIN# JH4DA9370NS035336</h3>
+    <div className='mx-10'><h3 className='font-bold'>Success! We found detailed information for VIN# JH4DA9370NS035336</h3>
 <div className='grid grid-cols-2'>
     <div>
     <Image

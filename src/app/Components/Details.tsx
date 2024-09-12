@@ -68,7 +68,7 @@ const Details = () => {
             
         </div>
 
-        <div className='my-40 text-left -rotate-12 z-50'>
+        <div className=' text-center  z-50'>
          <div className='my-5 mx-10' ><h1 className='bg-purple-600 inline rounded-[10px] text-white py-2 px-6' >!</h1></div>
          
          <div className='my-10'><h1 className='bg-purple-600 inline rounded-[20px] text-white py-5 px-6' >Find More Information</h1></div>
@@ -308,7 +308,7 @@ const Details = () => {
         </div>
 
 {/* **********************************************************8 */}
-        <div className='mt-2 text-left -rotate-12'>
+        <div className='mt-0 text-center'>
          <div className='my-5' ><h1 className='bg-purple-600 inline rounded-[10px] text-white py-2 px-6' >!</h1></div>
          
          <div className='my-10'><h1 className='bg-purple-600 inline rounded-[20px] text-white py-5 px-6' >Get Original Window Stickers</h1></div>
@@ -320,14 +320,14 @@ const Details = () => {
 
 
         <div className='my-20
-         md:my-40'>
+         md:my-20'>
          <p className='text-[16px] text-black font-light tracking-tighter'>A window label is a mandatory tag that must be affixed to every new vehicle sold in the United States. Its purpose is to offer essential insights to potential buyers regarding the vehicle under their consideration for purchase. :</p>
          </div>
 
 
          <div className='flex flex-cols my-30 border-x-8
          md:flex flex-row md:justify-evenly md:border-y-8'>
-          <div className='mt-[-30px] md:mt-[-120px]'>
+          <div className='mt-[-30px] md:my-20'>
           <ul>
             <li className='text-[16px] md:text-[20px] text-black font-light tracking-tighter'>&#9745;VIN description, interior and exterior color of the vehicle</li>
             <li className='text-[16px] md:text-[20px] text-black font-light tracking-tighter'>&#9745;Provides detailed insights into features of the car</li>
@@ -335,7 +335,7 @@ const Details = () => {
           </ul>
           </div>
 
-          <div className='mt-[-30px] md:mt-[-120px]'>
+          <div className='mt-[-30px] md:my-20'>
           <ul>
             <li className='text-[16px] md:text-[20px] text-black font-light tracking-tighter'>&#9745;VIN description, interior and exterior color of the vehicle</li>
             <li className='text-[16px] md:text-[20px] text-black font-light tracking-tighter'>&#9745;Provides detailed insights into features of the car</li>
@@ -353,7 +353,7 @@ const Details = () => {
                           height={1000}
                           layout='intrinsic'
                           objectFit='cover'
-                          className='mx-auto my-auto'
+                          className='mx-auto my-10'
                         />
           </div>
          </div>

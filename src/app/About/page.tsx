@@ -25,7 +25,7 @@ const About = () => {
         md:grid grid-cols-2 my-20'>
         
              
-                  <div className='grid grid-cols-2 bg-image py-40 h-[80%] '>
+                  <div className='grid grid-cols-2 bg-image py-40 h-[80%] rounded-xl '>
               <div className='flex flex-col'>
               <div>
              <Image
@@ -126,7 +126,7 @@ const About = () => {
          
 
          {/* ************************************************************8 */}
-          <div className='bg-image py-40'>
+          <div className='bg-image py-40 rounded-xl'>
          <div className='flex flex-col
          md:grid-cols-2'>
 

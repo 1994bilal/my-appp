@@ -15,7 +15,7 @@ const Report = () => {
 
           <div className='flex flex-col
           md:grid grid-cols-2  justify-center gap-4'>
-            <div className='bg-blue-300 p-2 rounded-xl'>
+            <div className='bg-blue-300 p-5 rounded-xl'>
             <Image
                 alt=""
                 src="/assets/s1.png"
@@ -38,7 +38,7 @@ const Report = () => {
                 src="/assets/s2.png"
                 className="h-140 w-100"
                 width={500}
-                height={50}
+                height={500}
                 />
                 <h1 className='text-center mt-3'>
                 2007 Honda Civic <br />
