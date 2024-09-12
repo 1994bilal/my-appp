@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=''>
+    <div className='wrapper'>
         <footer className="bg-indigo-900 dark:bg-gray-900 rounded-2xl mt-20">
   <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
     <div className="md:flex md:justify-between">
@@ -53,8 +53,8 @@ const Footer = () => {
           <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
             ...
           </h2>
-          <ul className="text-gray-500 dark:text-gray-400 font-medium">
-            <li className="mb-4">
+          <ul className="text-gray-500 dark:text-gray-400 font-medium mx-20">
+            <li className="mb-4 ">
               <a
                 className="hover:underline "
                 href=""

@@ -48,7 +48,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(true)
 
   return (
-    <div className=''>
+    <div className='wrapper'>
     <div className='w-full z-50'>
     <div className='bg-yellow-600 h-20'>
       <div className="flex lg:flex-1 w-full">

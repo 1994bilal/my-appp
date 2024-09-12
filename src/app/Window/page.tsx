@@ -16,7 +16,7 @@ const Window = () => {
   }, []);
   return (
     
-       <div className=''>
+       <div className='wrapper'>
 
 {/* Parent Div of cols-2 */}
   <div className='md:grid grid-cols-2'>

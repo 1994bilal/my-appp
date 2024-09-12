@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Car = () => {
   return (
     
-    <div className=''>
+    <div className='wrapper'>
 
 
     <div>
@@ -40,15 +40,15 @@ const Car = () => {
 
       <div className="p-4 xl:w-1/4 md:w-1/2 w-full px-2">
         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-          <div className='bg-indigo-600'>
-          <h2 className="text-2xl tracking-widest title-font mb-1 font-medium text-center">
+          <div className='bg-indigo-600 rounded-xl'>
+          <h2 className="text-3xl p-5 align-text-top font-extrabold tracking-widest title-font mb-1 text-white text-center">
           Extend <br/>
-          <p className='text-black font-bold text-sm'>Delivery Duration: 12-24 Hours</p>
+          <p className='text-black font-bold text-sm my-5'>Delivery Duration: 12-24 Hours</p>
           </h2>
           </div>
           <h1 className="text-5xl text-gray-900 pb-4 mb-8 mt-8 border-b border-gray-200 leading-none text-center">
-          CA$
-          57
+          <span className='text-sm font-bold align-text-top'>CA$</span>
+          <span className='font-extrabold text-6xl'>57</span>
           </h1>
           <p className="flex items-center text-gray-600 mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -305,14 +305,15 @@ const Car = () => {
 
       <div className="p-4 xl:w-1/4 md:w-1/2 w-full px-2">
         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-          <h2 className="text-2xl tracking-widest title-font mb-1 font-medium text-center">
-          Professional<br/>
-          <p className='text-black font-bold text-sm'>Delivery Duration: 30 Minutes</p>
+          <div className='bg-indigo-600 rounded-xl'>
+          <h2 className="text-3xl p-5 align-text-top font-extrabold tracking-widest title-font mb-1 text-white text-center">
+          Professional <br/>
+          <p className='text-black font-bold text-sm my-5'>Delivery Duration: 30 minutes</p>
           </h2>
+          </div>
           <h1 className="text-5xl text-gray-900 pb-4 mb-8 mt-8 border-b border-gray-200 leading-none text-center">
-          CA$
-          73.
-          40
+          <span className='text-sm font-bold align-text-top'>CA$</span>
+          <span className='font-extrabold text-6xl'>73.<span className='text-lg font-semibold'>40</span></span>
           </h1>
           <p className="flex items-center text-gray-600 mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -569,14 +570,17 @@ const Car = () => {
 
       <div className="p-4 xl:w-1/4 md:w-1/2 w-full px-2">
         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-          <h2 className="text-2xl tracking-widest title-font mb-1 font-medium text-center">
-          Ultimate<br/>
-          <p className='text-black font-bold text-sm'>Delivery Duration: 60 Minutes</p>
+          <div className='bg-indigo-600 rounded-xl'>
+          <h2 className="text-3xl p-5 align-text-top font-extrabold tracking-widest title-font mb-1 text-white text-center">
+          Ultimate <br/>
+          <p className='text-black font-bold text-sm my-5'>Delivery Duration: 60 minutes</p>
           </h2>
+          </div>
           <h1 className="text-5xl text-gray-900 pb-4 mb-8 mt-8 border-b border-gray-200 leading-none text-center">
-          CA$
-          93.20
+          <span className='text-sm font-bold align-text-top'>CA$</span>
+          <span className='font-extrabold text-6xl'>93.<span className='text-lg font-semibold'>20</span></span>
           </h1>
+     
           <p className="flex items-center text-gray-600 mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
               <svg

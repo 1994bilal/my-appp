@@ -23,15 +23,15 @@ import Image from "next/image"
 function TabForm() {
   
   return (
-    <div className="bg-white">
+    <div className=" wrapper bg-white">
 
 
       
-    <div className="flex flex-col
-    md:grid grid-cols-2 justify-evenly">
+    {/* <div className="flex flex-col */}
+    {/* md:grid grid-cols-2 justify-evenly"> */}
 
 
-<div data-aos="fade-right" data-aos-duration="3000">
+{/* <div data-aos="fade-right" data-aos-duration="3000">
              <Image
           src="/assets/fo2.jpg"
            alt="portfolio-pic"
@@ -42,9 +42,9 @@ function TabForm() {
              />
         
                 
-            </div>
+            </div> */}
 
-    <div data-aos="fade-right" className="mt-10 md:mr-20">
+    <div data-aos="fade-right" className="mt-10 md:mx-60 mx-10">
     <Tabs defaultValue="account" className="w-full md:w-[500px] ">
       <TabsList className="grid w-full grid-cols-2 text-white gap-3">
         <TabsTrigger className="bg-indigo-700 rounded-[20px] font-extrabold tracking-tighter" value="account">By VIN</TabsTrigger>
@@ -116,7 +116,7 @@ function TabForm() {
     </div>
 
     
-            </div>
+            {/* </div> */}
 
 
 

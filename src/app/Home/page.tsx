@@ -5,7 +5,7 @@ import Details from '../Components/Details'
 
 const Home = () => {
   return (
-    <div>
+    <div className='wrapper'>
         
     <Hero/>
     <TabForm/>
