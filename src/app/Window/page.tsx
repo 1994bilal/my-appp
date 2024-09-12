@@ -55,7 +55,7 @@ const Window = () => {
          </div>
 {/* ****************************************************************** */}
     
-<div className='my-10'>    
+<div className='my-10 md:my-10'>    
       <TabForm/>
 
       </div>
