@@ -43,7 +43,7 @@ const Boat = () => {
 
     <div className="p-4 xl:w-1/4 md:w-1/2 w-full px-2">
         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-          <div className='bg-indigo-600 rounded-xl'>
+          <div className='bg-indigo-900 rounded-xl'>
           <h2 className="text-3xl p-5 align-text-top font-extrabold tracking-widest title-font mb-1 text-white text-center">
           Extend <br/>
           <p className='text-black font-bold text-sm my-5'>Delivery Duration: 12-24 Hours</p>

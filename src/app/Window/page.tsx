@@ -192,7 +192,7 @@ md:grid grid-cols-3 py-10 gap-1'>
          
          <div className='my-10'><h1 className='bg-purple-600 inline rounded-[20px] text-white text-2xl text-center py-8 px-20' >Sample Window Sticker</h1></div>
          <div className='mt-[-10px] mx-20'><h3 className='text-[16px]
-         bg-blue-300 inline rounded-[20px] text-white md:text-[22px] font-extralight md:py-5 md:px-2 ml-40 my-8'>View Some of Our Window Stickers</h3></div>
+         bg-blue-300 inline rounded-[20px] text-white md:text-[22px] font-extralight md:py-5 md:px-2 px-3 md:ml-40 my-8'>View Some of Our Window Stickers</h3></div>
         </div>
 {/* ****************************************************************************8 */}
 
@@ -277,7 +277,7 @@ md:grid grid-cols-2 bg-indigo-900 my-20 py-5'>
          
          <div className='my-10'><h1 className='bg-purple-600 inline rounded-[20px] text-white text-2xl text-center py-8 px-20' >Sell your Vehicle faster</h1></div>
          <div className='mt-[-10px] mx-20'><h3 className='text-[16px]
-         bg-blue-300 inline rounded-[20px] text-white md:text-[22px] font-extralight md:py-5 md:px-2 ml-40 my-8'>How do Window Sticker Increase Sales Conversion?</h3></div>
+         bg-blue-300 inline rounded-[20px] text-white md:text-[22px] font-extralight md:py-5 md:px-2 px-0 md:ml-40 my-8'>How do Window Sticker Increase Sales Conversion?</h3></div>
         </div>
 
         {/* *****************************************************************8  */}

@@ -92,7 +92,7 @@ const About = () => {
            alt="portfolio-pic"
             width={1000} 
             height={1000}
-            className='w-[40%] my-0 rounded-lg bg-sky-200 '
+            className='mr-10 md:w-[40%] my-0 rounded-lg bg-sky-200 '
              />
              </div>
 
@@ -106,7 +106,7 @@ const About = () => {
            alt="portfolio-pic"
             width={1000} 
             height={1000}
-            className='w-[40%] my-0 rounded-lg bg-sky-200 '
+            className='mr-10 md:w-[40%] my-0 rounded-lg bg-sky-200 '
              />
              </div>
 
