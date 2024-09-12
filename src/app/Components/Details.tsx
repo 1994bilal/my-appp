@@ -27,7 +27,7 @@ const Details = () => {
                           height={5000}
                           layout='intrinsic'
                           objectFit='cover'
-                          className='w-[90%] rounded-xl'
+                          className='w-[90%] rounded-xl mx-auto'
                         />
                         <h3 className='mt-6 text-xl font-bold text-purple-600'>Vehicle History Report</h3>
                         <p className='text-black text-sm text-opacity-100 mt-3'>A vehicle history report provides detailed information about a {`vehicle's`} accidents, liens, theft, damage, title status, and usage details.</p
@@ -58,7 +58,7 @@ const Details = () => {
             width={1000} 
             height={1000}
             objectFit='cover'
-             className="mx-[10px]
+             className="mx-auto
              md:h-[100%] md:w-[80%] bg-white md:ml-20 "
              />
         
