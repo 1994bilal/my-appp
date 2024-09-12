@@ -30,7 +30,7 @@ const Hero = () => {
         <div className='md:grid grid-cols-2'>
           
         {/* Mobile Display */}
-            <div className='flex flex-col md:my-18 p-4 text-center bg-indigo-900'>
+            <div className='flex flex-col md:my-10 p-4 text-center bg-indigo-900'>
               {/* *********** */}
               {/* Col-1  */}
                 <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-yellow-200 mt-20 leading-none">
