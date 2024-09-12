@@ -298,10 +298,10 @@ const Details = () => {
          {/* ***************************************** */}
          <div className='md:flex flex'>
           <div className='mx-auto my-8'>
-          <Button className='px-10
+          <Button className='px-10 w-full md:w-24
           bg-indigo-700 md:mx-20 md:px-20'>
             Check Vehicle History</Button>
-          <Button className='px-10 mx-10 my-5
+          <Button className='px-10 mx-0 my-5 w-full md:w-24
           bg-indigo-700 md:mx-20 md:px-20'>
             View Sample Report</Button>
           </div>
