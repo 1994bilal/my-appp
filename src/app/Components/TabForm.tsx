@@ -45,7 +45,7 @@ function TabForm() {
             </div> */}
 
     <div data-aos="fade-right" className="mt-10 md:mx-60 mx-10">
-    <Tabs defaultValue="account" className="w-[420px] md:w-[500px] ">
+    <Tabs defaultValue="account" className="w-full mx-auto md:w-[500px] ">
       <TabsList className="grid w-full grid-cols-2 text-white gap-3">
         <TabsTrigger className="bg-indigo-700 rounded-[20px] font-extrabold tracking-tighter" value="account">By VIN</TabsTrigger>
         <TabsTrigger className="bg-indigo-700 rounded-[20px] font-extrabold tracking-tighter" value="password">By US Licence Plate</TabsTrigger>
