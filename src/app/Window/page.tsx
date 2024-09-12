@@ -73,7 +73,7 @@ md:grid grid-cols-3 py-10 gap-1'>
       height={70}
        className="h-[30%]
        my-18"/>
-      <h2 className='text-blue-600 text-2xl font-bold'>Standard Factory Features</h2>
+      <h2 className='text-blue-600 text-2xl font-bold text-center'>Standard Factory Features</h2>
       <h3 className='text-md'>Standard features usually include items like<br/>
        engine and transmission specifications,<br/>
        Standard installed equipment, interior & <br/>
