@@ -24,7 +24,7 @@ md:grid grid-cols-2'>
             width={100} 
             height={100}
              className="h-[50%]
-             bg-white my-10 mx-10 "
+             bg-white my-10 md:mx-10 mx-0 "
              />
     </div>
 <h1 className='text-2xl font-extrabold my-16 text-start'>1992 Acura Integra</h1></div>
