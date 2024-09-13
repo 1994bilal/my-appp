@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 
 const Details = () => {
   return (
+    <div className='sm:container max-w-full md:wrapper'>
     <div className='wrapper text-xl text-indigo-500
      md:container mx-auto px-4 md:text-4xl font-bold text-center mt-10'>
         <h1 className='"scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl"'>What Details are Contained in a Vehicle History Report?</h1>
@@ -416,6 +417,7 @@ const Details = () => {
         
 
 
+    </div>
     </div>
     
   )
