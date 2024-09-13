@@ -87,7 +87,7 @@ const Header = () => {
             
           </button>
 
-          <Button className='bg-gray-400 rounded-[20px] px-4 py-1 mx-40 my-auto'>Login</Button>
+          <Button className='bg-gray-400 rounded-[20px] px-4 py-1 mx-20 my-auto'>Login</Button>
           
         </div>
 
