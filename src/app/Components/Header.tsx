@@ -72,7 +72,9 @@ const Header = () => {
       <nav aria-label="Global" className="mx-auto z-50 flex items-center justify-between bg-indigo-900 w-full h-20">
         
         <div className="flex lg:hidden">
-        <Button className='bg-gray-400 rounded-[20px] px-4 py-1 mx-5 my-auto'>Login</Button>
+        
+
+
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
@@ -80,10 +82,12 @@ const Header = () => {
           >
             <span className="sr-only">open mobile menu</span>
             
-            <Bars3Icon onClick={toggleMenu} aria-hidden="true" className="h-12 w-10 text-white font-extrabold mx-auto"/>
+            <Bars3Icon onClick={toggleMenu} aria-hidden="true" className="h-12 w-10 text-white font-extrabold mx-10"/>
             {mobileMenuOpen ? '' : ''}
             
           </button>
+
+          <Button className='bg-gray-400 rounded-[20px] px-4 py-1 mx-60 my-auto'>Login</Button>
           
         </div>
 
