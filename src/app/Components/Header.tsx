@@ -80,7 +80,7 @@ const Header = () => {
           >
             <span className="sr-only">open mobile menu</span>
             
-            <Bars3Icon onClick={toggleMenu} aria-hidden="true" className="h-12 w-10 text-white font-extrabold mx-20"/>
+            <Bars3Icon onClick={toggleMenu} aria-hidden="true" className="h-12 w-10 text-white font-extrabold mx-40"/>
             {mobileMenuOpen ? '' : ''}
             
           </button>
