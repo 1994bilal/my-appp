@@ -10,7 +10,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 
 const GetReport = () => {
   return (
-    <div className='wrapper my-10'>
+    <div className='max-w-full lg:wrapper my-10'>
     
 <div className='flex flex-col
 md:grid grid-cols-2'>

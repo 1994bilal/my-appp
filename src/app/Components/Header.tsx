@@ -32,17 +32,6 @@ import Link from 'next/link'
         
 
 
-// const products = [
-//   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-//   { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-//   { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-//   { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-//   { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
-// ]
-// const callsToAction = [
-//   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-//   { name: 'Contact sales', href: '#', icon: PhoneIcon },
-// ]
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -56,7 +45,7 @@ const Header = () => {
   };
 
   return (
-    <div className='sm:container max-w-full md:wrapper'>
+    <div className='max-w-full lg:wrapper'>
     <div className='w-full z-50'>
     <div className='bg-yellow-600 h-20'>
       <div className="flex lg:flex-1 w-full">
@@ -83,7 +72,7 @@ const Header = () => {
       <nav aria-label="Global" className="mx-auto z-50 flex items-center justify-between bg-indigo-900 w-full h-20">
         
         <div className="flex lg:hidden">
-        <Button className='bg-gray-400 rounded-[20px] px-4 py-1 mx-20 my-auto'>Login</Button>
+        <Button className='bg-gray-400 rounded-[20px] px-4 py-1 mx-5 my-auto'>Login</Button>
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
@@ -91,7 +80,7 @@ const Header = () => {
           >
             <span className="sr-only">open mobile menu</span>
             
-            <Bars3Icon onClick={toggleMenu} aria-hidden="true" className="h-8 w-6 text-black font-extrabold mx-0"/>
+            <Bars3Icon onClick={toggleMenu} aria-hidden="true" className="h-12 w-10 text-white font-extrabold mx-80"/>
             {mobileMenuOpen ? '' : ''}
             
           </button>

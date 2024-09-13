@@ -7,7 +7,7 @@ const ATV = () => {
     
   
     
-    <div className='wrapper'>
+    <div className='max-w-full lg:wrapper'>
 
 
     <div>

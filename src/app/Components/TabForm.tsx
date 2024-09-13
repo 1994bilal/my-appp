@@ -23,7 +23,7 @@ import Image from "next/image"
 function TabForm() {
   
   return (
-    <div className='sm:container max-w-full md:wrapper bg-white'>
+    <div className='max-w-full lg:wrapper bg-white'>
 
 
       

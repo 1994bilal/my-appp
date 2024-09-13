@@ -5,7 +5,7 @@ const About = () => {
   return (
 
     
-  <div className='wrapper'>
+  <div className='max-w-full lg:wrapper'>
     
     
     <div>

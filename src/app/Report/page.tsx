@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const Report = () => {
   return (
     
-        <div className='wrapper'>
+        <div className='max-w-full lg:wrapper'>
 
           <div className='my-20'>
             <h1  className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center text-indigo-600">Want to see detailedautodna in action?</h1>

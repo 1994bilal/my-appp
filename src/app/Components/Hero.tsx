@@ -24,7 +24,7 @@ const Hero = () => {
     });
   }, []);
   return (
-    <div className='sm:container max-w-full md:wrapper'>
+    <div className='max-w-full lg:wrapper'>
 
       {/* Parent Div of cols-2 */}
         <div className='md:grid grid-cols-2'>
